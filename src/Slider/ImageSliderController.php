@@ -16,10 +16,10 @@ class ImageSliderController extends Extension {
 		//Section for image slider controller
 
 		//Load CSS requirements
-		Requirements::css("inferno/infernoslider: client/css/slider-style.css");
+		Requirements::css("opticinferno/infernoslider: client/css/slider-style.css");
 		//Load Javascript requirements
 
-        Requirements::javascript("inferno/infernoslider: client/js/carousel-swipe.js");
+        Requirements::javascript("opticinferno/infernoslider: client/js/carousel-swipe.js");
 		$interval = $this->owner->Interval;
 		$swipe = $this->owner->Swipe;
 
