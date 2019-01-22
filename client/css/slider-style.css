@@ -1,0 +1,11 @@
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: inherit;
+    left: 0;
+	top:10%;
+    z-index: 10;
+    padding-top: inherit;
+    padding-bottom: inherit;
+ 
+}

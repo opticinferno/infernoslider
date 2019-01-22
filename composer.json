@@ -1,0 +1,10 @@
+{
+    "name": "inferno/infernoslider",
+    "description": "Slider Module",
+    "type": "silverstripe-vendormodule",
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    }
+}
