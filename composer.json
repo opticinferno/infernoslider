@@ -2,6 +2,8 @@
     "name": "opticinferno/infernoslider",
     "description": "Slider Module",
     "type": "silverstripe-vendormodule",
+    "keywords": ["opticinferno"
+    ],
     "extra": {
         "expose": [
             "client"
