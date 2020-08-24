@@ -12,6 +12,7 @@ use SilverStripe\Forms\TextField;
 use SilverStripe\ORM\DataExtension;
 use UncleCheese\DisplayLogic\Extensions\DisplayLogic;
 use UncleCheese\DisplayLogic\Forms\Wrapper;
+use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 
 class ImageSlider extends DataExtension {
@@ -60,7 +61,7 @@ class ImageSlider extends DataExtension {
 
 
 		$gridFieldConfig= GridFieldConfig_RelationEditor::create(10);
-		$gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));
+		$gridFieldConfig->addComponent(new GridFieldOrderableRows('SortOrder'));
 
 	$fields->addFieldsToTab('Root.RotatingBanners', array(
 
